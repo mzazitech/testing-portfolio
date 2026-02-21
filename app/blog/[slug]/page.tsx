@@ -1,4 +1,4 @@
-import { posts } from "@/data/blog"
+import { posts } from "./data/blog"
 
 export default function BlogPost({ params }: any) {
   const post = posts.find((p) => p.slug === params.slug)
